@@ -91,12 +91,52 @@ class Program
         // }
 
         // ------------For Loop-------------------
-        for (int i = 1; i <= 10; i++)
+        // for (int i = 1; i <= 10; i++)
+        // {
+        //     Console.WriteLine(i);
+        // }
+        // }
+        // ---------------------Assignment--------------------
+        for (int i = 1; i <= 3; i++)
         {
-            Console.WriteLine(i);
+            Console.WriteLine("Student: " + i);
+            Console.Write("Enter Your Name: ");
+            string Name = Console.ReadLine();
+            Console.Write("Enter Your Marks: ");
+            int marks = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("================ Marksheet ====================== ");
+            Console.WriteLine("Name: " + Name);
+            Console.WriteLine("Marks: " + marks);
+
+
+            if (marks >= 70)
+            {
+                Console.WriteLine(" Grade  A");
+            }
+            else if (marks >= 60 && marks <= 70)
+            {
+                Console.WriteLine(" Grade  b");
+
+            }
+            else if (marks >= 50 && marks <= 60)
+            {
+                Console.WriteLine(" Grade  c");
+
+            }
+            else
+            {
+                Console.WriteLine("Fail");
+
+            }
+
+
+
+
+
+
         }
 
+
     }
-
-
 }
