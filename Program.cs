@@ -68,6 +68,28 @@ class Program
         // int div = a / b;
         // Console.WriteLine("Product is: " + div);
 
+        // ---------if/ else  conditions-----------------------
+        // int marks = 78;
+        // if (marks >= 70 && marks <= 80)
+        // {
+        //     Console.WriteLine(" Grade  A");
+        // }
+        // else if (marks >= 60 && marks <= 70)
+        // {
+        //     Console.WriteLine(" Grade  b");
+
+        // }
+        // else if (marks >= 50 && marks <= 60)
+        // {
+        //     Console.WriteLine(" Grade  c");
+
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Fail");
+
+        // }
+
 
 
     }
