@@ -31,6 +31,16 @@ class Program
         // Console.WriteLine(isActive);
         //  bool for booleans (true/false)
 
+        // ------------- User Input---------------------
+        // Console.ReadLine() ==> used to take input from user
+
+        Console.WriteLine("Enter your Name: ");
+        string Name = Console.ReadLine();
+        Console.WriteLine("Your Name is: " + Name);
+        Console.WriteLine("Enter Your Age: ");
+        int age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("your Age is: " + age);
+        // Convert.ToInt32() ===> used to convert string into int, because Console.ReadLine takes input in string.
 
 
 
