@@ -34,14 +34,39 @@ class Program
         // ------------- User Input---------------------
         // Console.ReadLine() ==> used to take input from user
 
-        Console.WriteLine("Enter your Name: ");
-        string Name = Console.ReadLine();
-        Console.WriteLine("Your Name is: " + Name);
-        Console.WriteLine("Enter Your Age: ");
-        int age = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("your Age is: " + age);
+        // Console.WriteLine("Enter your Name: ");
+        // string Name = Console.ReadLine();
+        // Console.WriteLine("Your Name is: " + Name);
+        // Console.WriteLine("Enter Your Age: ");
+        // int age = Convert.ToInt32(Console.ReadLine());
+        // Console.WriteLine("your Age is: " + age);
         // Convert.ToInt32() ===> used to convert string into int, because Console.ReadLine takes input in string.
 
+        // -----------------Basic calculation----------------
+        // sum
+        // int a = 20;
+        // int b = 30;
+        // int sum = a + b;
+        // Console.WriteLine("Sum is: " + sum);
+
+        // subtract
+        // int a = 30;
+        // int b = 20;
+        // int sub = a - b;
+        // Console.WriteLine("Subtract is: " + sub);
+
+        //Product
+        // int a = 30;
+        // int b = 20;
+        // int product = a * b;
+        // Console.WriteLine("Product is: " + product);
+
+
+        //Division
+        // int a = 30;
+        // int b = 2;
+        // int div = a / b;
+        // Console.WriteLine("Product is: " + div);
 
 
 
