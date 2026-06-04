@@ -97,45 +97,59 @@ class Program
         // }
         // }
         // ---------------------Assignment--------------------
-        for (int i = 1; i <= 3; i++)
+        // for (int i = 1; i <= 3; i++)
+        // {
+        //     Console.WriteLine("Student: " + i);
+        //     Console.Write("Enter Your Name: ");
+        //     string Name = Console.ReadLine();
+        //     Console.Write("Enter Your Marks: ");
+        //     int marks = Convert.ToInt32(Console.ReadLine());
+
+        //     Console.WriteLine("================ Marksheet ====================== ");
+        //     Console.WriteLine("Name: " + Name);
+        //     Console.WriteLine("Marks: " + marks);
+
+
+        //     if (marks >= 70)
+        //     {
+        //         Console.WriteLine(" Grade  A");
+        //     }
+        //     else if (marks >= 60 && marks <= 70)
+        //     {
+        //         Console.WriteLine(" Grade  b");
+
+        //     }
+        //     else if (marks >= 50 && marks <= 60)
+        //     {
+        //         Console.WriteLine(" Grade  c");
+
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine("Fail");
+
+        //     }
+
+        // }
+
+
+        // ----------------- Functions-------------------
+
+        // static void Greeting(string name)
+        // {
+        //     Console.WriteLine("Hello," + name);
+        // }
+        // Greeting("Hassan");
+
+        static int Add(int a, int b)
         {
-            Console.WriteLine("Student: " + i);
-            Console.Write("Enter Your Name: ");
-            string Name = Console.ReadLine();
-            Console.Write("Enter Your Marks: ");
-            int marks = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("================ Marksheet ====================== ");
-            Console.WriteLine("Name: " + Name);
-            Console.WriteLine("Marks: " + marks);
-
-
-            if (marks >= 70)
-            {
-                Console.WriteLine(" Grade  A");
-            }
-            else if (marks >= 60 && marks <= 70)
-            {
-                Console.WriteLine(" Grade  b");
-
-            }
-            else if (marks >= 50 && marks <= 60)
-            {
-                Console.WriteLine(" Grade  c");
-
-            }
-            else
-            {
-                Console.WriteLine("Fail");
-
-            }
-
-
-
-
-
-
+            return a + b;
         }
+        int sum = Add(5, 15);
+        Console.WriteLine("sum is: " + sum);
+
+
+
 
 
     }
