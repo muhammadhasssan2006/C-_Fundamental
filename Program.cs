@@ -141,12 +141,75 @@ class Program
         // }
         // Greeting("Hassan");
 
-        static int Add(int a, int b)
-        {
-            return a + b;
-        }
-        int sum = Add(5, 15);
-        Console.WriteLine("sum is: " + sum);
+        // static int Add(int a, int b)
+        // {
+        //     return a + b;
+        // }
+        // int sum = Add(5, 15);
+        // Console.WriteLine("sum is: " + sum);
+
+        // Console.WriteLine("Enter first number");
+        // int num1 = Convert.ToInt32(Console.ReadLine());
+        // // Console.WriteLine("number 1:" + num1);
+
+        // Console.WriteLine("Enter second number");
+        // int num2 = Convert.ToInt32(Console.ReadLine());
+
+        // int result = Calculator(num1, num2);
+        // Console.WriteLine("Result: " + result);
+
+        // static int Calculator(int num1, int num2)
+        // {
+        //     return num1 + num2;
+        // }
+
+        //         Code           Meaning
+        //         string         null allowed nahi
+        //         string?        null allowed
+        //         !              force non-null(careful)
+        //         ?? ""           fallback value
+
+
+        // ----------------- Calculator---------------------
+
+
+        // Console.WriteLine("Enter first number");
+        // int num1 = Convert.ToInt32(Console.ReadLine());
+
+        // Console.Write("Enter operator: ");
+        // string oprt = Console.ReadLine()!;
+
+        // Console.WriteLine("Enter second number");
+        // int num2 = Convert.ToInt32(Console.ReadLine());
+
+        // int result = Calculator(num1, oprt, num2);
+        // Console.WriteLine("Your result is: " + result);
+
+
+        // static int Calculator(int num1, string oprt, int num2)
+        // {
+        //     if (oprt == "+")
+        //     {
+        //         return num1 + num2;
+        //     }
+        //     else if (oprt == "-")
+        //     {
+        //         return num1 - num2;
+        //     }
+        //     else if (oprt == "*")
+        //     {
+        //         return num1 * num2;
+        //     }
+        //     else if (oprt == "/")
+        //     {
+        //         return num1 / num2;
+        //     }
+
+        //     return 0; // default fallback
+        // }
+
+
+
 
 
 
